@@ -1,0 +1,38 @@
+.sideNavButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.sideNavButton:hover {
+    background-color:#e8f5fe;
+    border-radius: 30px;
+    color: #1DA1F2;
+    /* transition: color 80ms ease-out;  */
+}
+
+.sideNavButton > .MuiSvgIcon-root {
+    padding: 20px
+}
+
+.sideNavButton > h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.sideNavButton--active {
+    color: #1DA1F2;    
+}
+
+.navTweet{
+    background-color: #1DA1F2 !important;
+    border: none;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
